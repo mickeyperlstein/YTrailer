@@ -1,0 +1,11 @@
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\bin\Debug\VB.core.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\bin\Debug\VB.core.pdb
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\bin\Debug\VB.core.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\Interop.BytescoutSWFToVideo.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\Interop.VisioForge_Video_Edit.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\VB.core.vbproj.ResolveComReference.cache
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\VB.core.Resources.resources
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\VB.core.vbproj.GenerateResource.Cache
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\VB.core.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\VB.core.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\VB.core\obj\Debug\VB.core.pdb

@@ -1,0 +1,42 @@
+﻿@model FinalWebApp.Models.VideoAnalysisReport
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VideoAnalysisReport</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PromoRequest)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PromoRequest)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OriginalVideo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OriginalVideo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LowResVideoFile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LowResVideoFile)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YTrailerWeb.Models.MyDBContextModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="YTrailerWebModelsMyDBContextModelStoreContainer">
+    <EntitySet Name="YTasks" EntityType="YTrailerWeb.Models.MyDBContextModel.Store.YTasks" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="YTitles" EntityType="YTrailerWeb.Models.MyDBContextModel.Store.YTitles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PromoRequests" EntityType="YTrailerWeb.Models.MyDBContextModel.Store.PromoRequests" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="YTitleYTask" Association="YTrailerWeb.Models.MyDBContextModel.Store.YTitleYTask">
+      <End Role="YTitle" EntitySet="YTitles" />
+      <End Role="YTask" EntitySet="YTasks" />
+    </AssociationSet>
+    <AssociationSet Name="PromoRequestYTask" Association="YTrailerWeb.Models.MyDBContextModel.Store.PromoRequestYTask">
+      <End Role="PromoRequest" EntitySet="PromoRequests" />
+      <End Role="YTask" EntitySet="YTasks" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="YTasks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YouTubeUrl" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="true" />
+    <Property Name="EndTime" Type="datetime" Nullable="true" />
+    <Property Name="isHandled" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="YTitles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Author" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="YTask_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PromoRequests">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title1" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Title2" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Title3" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Title4" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BgMusicFile" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Seconds" Type="float" Nullable="false" />
+    <Property Name="YTask_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="YTitleYTask">
+    <End Role="YTitle" Type="YTrailerWeb.Models.MyDBContextModel.Store.YTitles" Multiplicity="*" />
+    <End Role="YTask" Type="YTrailerWeb.Models.MyDBContextModel.Store.YTasks" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="YTask">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="YTitle">
+        <PropertyRef Name="YTask_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PromoRequestYTask">
+    <End Role="PromoRequest" Type="YTrailerWeb.Models.MyDBContextModel.Store.PromoRequests" Multiplicity="*" />
+    <End Role="YTask" Type="YTrailerWeb.Models.MyDBContextModel.Store.YTasks" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="YTask">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PromoRequest">
+        <PropertyRef Name="YTask_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

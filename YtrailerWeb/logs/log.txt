@@ -1,0 +1,106 @@
+DEBUG 2015-07-10 01:25:39 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 01:33:54 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 01:35:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 01:37:20 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 01:40:07 – Starting up webApp
+INFO  2015-07-10 01:42:24 – Starting up webApp
+DEBUG 2015-07-10 01:43:11 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 01:49:06 – Starting up webApp
+DEBUG 2015-07-10 01:49:19 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 01:52:56 – Starting up webApp
+DEBUG 2015-07-10 01:53:06 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 01:54:39 – Starting up webApp
+INFO  2015-07-10 01:55:11 – Starting up webApp
+INFO  2015-07-10 01:56:32 – Starting up webApp
+INFO  2015-07-10 01:58:04 – Starting up webApp
+INFO  2015-07-10 01:58:32 – Starting up webApp
+INFO  2015-07-10 02:01:35 – Starting up webApp
+DEBUG 2015-07-10 02:09:23 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:10:12 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:12:17 – Starting up webApp
+DEBUG 2015-07-10 02:12:41 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:12:41 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:12:41 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:12:41 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:12:55 – Starting up webApp
+DEBUG 2015-07-10 02:13:04 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:13:10 – Starting up webApp
+INFO  2015-07-10 02:14:20 – Starting up webApp
+INFO  2015-07-10 02:16:18 – Starting up webApp
+DEBUG 2015-07-10 02:16:27 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:16:59 – Starting up webApp
+INFO  2015-07-10 02:18:06 – Starting up webApp
+DEBUG 2015-07-10 02:18:19 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:18:28 – Starting up webApp
+INFO  2015-07-10 02:21:36 – Starting up webApp
+DEBUG 2015-07-10 02:21:50 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:22:01 – Starting up webApp
+DEBUG 2015-07-10 02:22:51 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:22:51 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:22:51 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:22:51 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:42:52 – Starting up webApp
+DEBUG 2015-07-10 02:43:14 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:43:41 – Starting up webApp
+INFO  2015-07-10 02:43:51 – Starting up webApp
+INFO  2015-07-10 02:44:15 – Starting up webApp
+INFO  2015-07-10 02:44:31 – Starting up webApp
+DEBUG 2015-07-10 02:44:34 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:34 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:34 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:34 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 02:44:42 – Starting up webApp
+DEBUG 2015-07-10 02:44:45 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:45 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:45 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:48 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:50 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:44:54 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:43 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:43 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:43 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:45 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:45 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:45 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:46 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:47 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:47 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:50 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:54 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:45:58 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:46:02 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:46:06 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:46:10 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-10 02:46:14 –  TaskAPI:Tasks(1)
+INFO  2015-07-10 12:58:47 – Starting up webApp
+INFO  2015-07-12 18:05:40 – Starting up webApp
+INFO  2015-07-12 18:05:54 – Starting up webApp
+INFO  2015-07-12 18:10:50 – Starting up webApp
+INFO  2015-07-12 18:34:19 – Starting up webApp
+INFO  2015-07-12 18:35:04 – Starting up webApp
+INFO  2015-07-12 19:06:07 – Starting up webApp
+INFO  2015-07-12 19:07:24 – Starting up webApp
+INFO  2015-07-12 19:22:56 – Starting up webApp
+INFO  2015-07-12 20:25:33 – Starting up webApp
+DEBUG 2015-07-12 20:27:07 –  TaskAPI:Tasks(1)
+INFO  2015-07-12 20:38:25 – Starting up webApp
+DEBUG 2015-07-12 20:38:31 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-12 20:38:43 –  TaskAPI:Tasks(1)
+INFO  2015-07-12 20:39:21 – Starting up webApp
+INFO  2015-07-12 20:46:05 – Starting up webApp
+DEBUG 2015-07-12 20:51:24 –  TaskAPI:Tasks(1)
+DEBUG 2015-07-13 17:25:47 –  TaskAPI:Tasks(1)
+INFO  2015-07-13 17:26:16 – Starting up webApp
+INFO  2015-07-13 17:43:40 – Starting up webApp
+INFO  2015-07-13 17:43:48 – Starting up webApp
+INFO  2015-07-13 17:45:19 – Starting up webApp
+INFO  2015-07-13 18:43:44 – Starting up webApp
+INFO  2015-07-13 18:45:37 – Starting up webApp
+INFO  2015-07-13 18:55:50 – Starting up webApp
+INFO  2015-07-13 18:56:05 – Starting up webApp

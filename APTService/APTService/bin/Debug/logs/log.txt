@@ -1,0 +1,226 @@
+DEBUG 2015-08-17 00:28:53 – Starting service
+DEBUG 2015-08-17 00:28:54 – Loaded 4 Requests
+DEBUG 2015-08-17 00:28:54 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 00:28:56 – connecting to yourtube on [a b c]
+DEBUG 2015-08-17 00:28:56 – Recieved youtube information
+DEBUG 2015-08-17 00:28:57 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 00:28:57 – update ReqId=23 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 00:28:57 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 00:28:57 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 00:29:00 – update ReqId=23 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 00:29:00 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 00:29:30 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-17 00:29:30 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-17 00:29:30 – update ReqId=23 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 00:29:30 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 00:29:30 – update ReqId=23 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-17 00:29:30 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 00:29:30 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 00:29:33 – update ReqId=23 Mode: CreatingLowResVideo
+DEBUG 2015-08-17 00:29:33 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 00:29:33 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 00:29:33 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 00:29:35 – update ReqId=23 Mode: Analyzing
+DEBUG 2015-08-17 00:29:36 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 00:29:36 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 00:29:36 – ¦ Randomly stopping for 1 secs
+ERROR 2015-08-17 00:30:16 – INSERT to PromoProject failed code=InternalServerError
+DEBUG 2015-08-17 00:30:29 – update ReqId=23 Mode: ReadyToCreatePromo
+DEBUG 2015-08-17 00:30:29 – Update to PromoRequest success code=Accepted
+ERROR 2015-08-17 00:32:03 – INSERT to PromoProject failed code=InternalServerError
+DEBUG 2015-08-17 00:43:18 – Starting service
+DEBUG 2015-08-17 00:43:22 – Loaded 4 Requests
+DEBUG 2015-08-17 00:43:22 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 00:49:11 – Starting service
+DEBUG 2015-08-17 00:49:11 – Loaded 4 Requests
+DEBUG 2015-08-17 00:49:11 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 00:50:03 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-17 01:12:10 – Starting service
+DEBUG 2015-08-17 01:12:11 – Loaded 4 Requests
+DEBUG 2015-08-17 01:12:11 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 01:12:13 – connecting to yourtube on [a b c]
+DEBUG 2015-08-17 01:12:13 – Recieved youtube information
+DEBUG 2015-08-17 01:12:43 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 01:12:43 – update ReqId=23 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 01:12:43 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:12:43 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 01:12:45 – update ReqId=23 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:12:46 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:13:16 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-17 01:13:32 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-17 01:13:32 – update ReqId=23 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:13:32 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:13:32 – update ReqId=23 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-17 01:13:32 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:13:32 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 01:13:36 – update ReqId=23 Mode: CreatingLowResVideo
+DEBUG 2015-08-17 01:13:36 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:13:36 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:13:36 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:13:38 – update ReqId=23 Mode: Analyzing
+DEBUG 2015-08-17 01:13:38 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:13:38 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:13:38 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:14:23 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-17 01:14:26 – update ReqId=23 Mode: ReadyToCreatePromo
+DEBUG 2015-08-17 01:14:26 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:14:29 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 01:14:33 – connecting to yourtube on [https://www.youtube.com/watch?v=NIaiXmm1H0o&list=RDNIaiXmm1H0o]
+DEBUG 2015-08-17 01:14:33 – Recieved youtube information
+DEBUG 2015-08-17 01:14:33 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 01:14:33 – update ReqId=26 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 01:14:33 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:14:33 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 01:14:36 – update ReqId=26 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:14:36 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:06 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-17 01:15:07 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-17 01:15:07 – update ReqId=26 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:15:07 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:07 – update ReqId=26 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-17 01:15:07 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:07 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 01:15:11 – update ReqId=26 Mode: CreatingLowResVideo
+DEBUG 2015-08-17 01:15:11 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:11 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:15:11 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 01:15:13 – update ReqId=26 Mode: Analyzing
+DEBUG 2015-08-17 01:15:13 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:13 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:15:13 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:15:44 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-17 01:15:44 – update ReqId=26 Mode: ReadyToCreatePromo
+DEBUG 2015-08-17 01:15:44 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:44 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 01:15:47 – connecting to yourtube on [my name is mickey]
+DEBUG 2015-08-17 01:15:47 – Recieved youtube information
+DEBUG 2015-08-17 01:15:48 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 01:15:48 – update ReqId=28 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 01:15:48 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:15:48 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 01:15:50 – update ReqId=28 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:15:50 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:20 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-17 01:16:20 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-17 01:16:20 – update ReqId=28 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:16:21 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:21 – update ReqId=28 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-17 01:16:21 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:21 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 01:16:23 – update ReqId=28 Mode: CreatingLowResVideo
+DEBUG 2015-08-17 01:16:23 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:23 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:16:23 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:16:25 – update ReqId=28 Mode: Analyzing
+DEBUG 2015-08-17 01:16:25 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:25 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:16:25 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:16:27 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-17 01:16:27 – update ReqId=28 Mode: ReadyToCreatePromo
+DEBUG 2015-08-17 01:16:27 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:27 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:16:28 – connecting to yourtube on [brand new]
+DEBUG 2015-08-17 01:16:28 – Recieved youtube information
+DEBUG 2015-08-17 01:16:28 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 01:16:28 – update ReqId=31 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 01:16:28 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:16:28 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:16:30 – update ReqId=31 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:16:30 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:17:00 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-17 01:17:00 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-17 01:17:00 – update ReqId=31 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 01:17:00 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:17:00 – update ReqId=31 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-17 01:17:00 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:17:00 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:17:02 – update ReqId=31 Mode: CreatingLowResVideo
+DEBUG 2015-08-17 01:17:02 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:17:02 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:17:02 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 01:17:03 – update ReqId=31 Mode: Analyzing
+DEBUG 2015-08-17 01:17:03 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:17:03 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 01:17:03 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 01:17:05 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-17 01:17:05 – update ReqId=31 Mode: ReadyToCreatePromo
+DEBUG 2015-08-17 01:17:05 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 01:33:45 – Loaded 4 Requests
+DEBUG 2015-08-17 01:50:38 – Loaded 4 Requests
+DEBUG 2015-08-17 20:25:10 – Starting service
+DEBUG 2015-08-17 20:25:10 – Loaded 5 Requests
+DEBUG 2015-08-17 20:25:10 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 20:25:13 – connecting to yourtube on [https://www.youtube.com/watch?v=6jMhMVEjEQg]
+DEBUG 2015-08-17 20:25:13 – Recieved youtube information
+DEBUG 2015-08-17 20:25:13 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 20:25:13 – update ReqId=32 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 20:25:13 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 20:25:13 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 20:25:16 – update ReqId=32 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 20:25:16 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 20:25:46 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-17 20:25:47 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-17 20:25:47 – update ReqId=32 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 20:25:47 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 20:25:47 – update ReqId=32 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-17 20:25:47 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 20:25:47 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-17 20:25:50 – update ReqId=32 Mode: CreatingLowResVideo
+DEBUG 2015-08-17 20:25:50 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 20:25:50 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 20:25:50 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 20:25:52 – update ReqId=32 Mode: Analyzing
+DEBUG 2015-08-17 20:25:52 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 20:25:52 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-17 20:25:52 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-17 20:25:54 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-17 20:25:54 – update ReqId=32 Mode: ReadyToCreatePromo
+DEBUG 2015-08-17 20:25:54 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 21:00:00 – Starting service
+DEBUG 2015-08-17 21:00:00 – Loaded 6 Requests
+DEBUG 2015-08-17 21:00:00 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 21:00:06 – connecting to yourtube on [https://www.youtube.com/watch?v=xK8RnBWVIPE]
+DEBUG 2015-08-17 21:04:44 – Starting service
+DEBUG 2015-08-17 21:06:59 – Starting service
+DEBUG 2015-08-17 21:06:59 – Loaded 6 Requests
+DEBUG 2015-08-17 21:06:59 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 21:07:04 – connecting to yourtube on [https://www.youtube.com/watch?v=xK8RnBWVIPE]
+DEBUG 2015-08-17 21:07:27 – Recieved youtube information
+DEBUG 2015-08-17 21:07:30 – INSERT to YouTubeInfos success code=Created
+DEBUG 2015-08-17 21:07:32 – update ReqId=33 Mode: GettingYouTubeDetails
+DEBUG 2015-08-17 21:07:32 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-17 21:07:33 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-17 21:07:35 – update ReqId=33 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-17 21:07:35 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:09:51 – Starting service
+DEBUG 2015-08-26 00:11:59 – Starting service
+DEBUG 2015-08-26 00:12:00 – Loaded 7 Requests
+DEBUG 2015-08-26 00:12:00 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-26 00:12:33 – update ReqId=33 Mode: GettingYouTubeDetails
+DEBUG 2015-08-26 00:12:33 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:12:33 – ¦ Randomly stopping for 2 secs
+DEBUG 2015-08-26 00:12:36 – update ReqId=33 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-26 00:12:36 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:13:06 – FinalWebApp.Models.VideoAnalysisReport
+DEBUG 2015-08-26 00:13:06 – INSERT to VideoAnalysisReport success code=Created
+DEBUG 2015-08-26 00:13:06 – update ReqId=33 Mode: DownloadingOriginalVideo
+DEBUG 2015-08-26 00:13:06 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:13:06 – update ReqId=33 Mode: DownloadedOriginalVideo
+DEBUG 2015-08-26 00:13:06 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:13:06 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-26 00:13:10 – update ReqId=33 Mode: CreatingLowResVideo
+DEBUG 2015-08-26 00:13:10 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:13:10 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-26 00:13:10 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-26 00:13:12 – update ReqId=33 Mode: Analyzing
+DEBUG 2015-08-26 00:13:12 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:13:12 – Update to PromoRequest success code=NoContent
+DEBUG 2015-08-26 00:13:12 – ¦ Randomly stopping for 1 secs
+DEBUG 2015-08-26 00:13:14 – INSERT to PromoProject success code=Created
+DEBUG 2015-08-26 00:13:14 – update ReqId=33 Mode: ReadyToCreatePromo
+DEBUG 2015-08-26 00:13:14 – Update to PromoRequest success code=Accepted
+DEBUG 2015-08-26 00:13:14 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-26 00:13:29 – connecting to yourtube on [new url]
+DEBUG 2015-08-26 00:13:29 – ¦ Randomly stopping for 3 secs
+DEBUG 2015-08-26 00:13:40 – connecting to yourtube on [new url]
+DEBUG 2015-08-26 00:13:40 – ¦ Randomly stopping for 3 secs

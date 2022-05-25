@@ -1,0 +1,97 @@
+﻿@model IEnumerable<YTrailerWeb.Models.YTask>
+
+@{
+    ViewBag.Title = "TaskAPI";
+}
+
+<h2>TaskAPI</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+
+
+@using (Html.BeginForm())
+{
+    <div id="loading" style="display:none">
+      <img src='/images/loading.gif' />
+    </div>
+    <div id="lblMessage"></div>
+    <button id="btnLoadMore">Load more ...</button>
+   
+}
+
+@section Scripts{
+    <script>
+        function loadAjax()
+        {
+            $.ajax({
+                type: 'GET',
+                url: '/api/TaskAPI',
+                datatype: "json",
+                cache: false,
+            }).success(function (data) {
+
+
+                var output =
+'\n<table class="table">' +
+'<tr>' +
+    '<th> @Html.DisplayNameFor(model => model.Id) </th>' +
+    '<th> @Html.DisplayNameFor(model => model.YouTubeUrl)</th>'+
+    '<th> @Html.DisplayNameFor(model => model.State) </th>' +
+    '<th> @Html.DisplayNameFor(model => model.StartDate)</th>' +
+    '<th> @Html.DisplayNameFor(model => model.EndTime)</th>' +
+    '<th></th>' +
+'\n</tr>';
+                console.log("\n" + output);
+
+                for (var i = 0; i < data.length; i++) {
+                    var item = data[i];
+                    var addendum = "";
+                    if (item.State == 20 | item.State == 30)
+                        addendum = '@Html.ActionLink("TITLES", "abc","controllerName")';
+                    
+                    output += "\n<tr>" +
+                        '\n<td>' + item.Id + "</td>" + 
+                        "\n<td> " + item.YouTubeUrl + "</td>" +
+                        "\n<td> " + item.StateStr + '</td>' +
+                        "\n<td> " + item.StartDate + "</td>" +
+                        "\n<td> " + item.EndTime + "</td>" +
+                        '\n<td>' + addendum + '</td>' +
+                    "</tr>\n";
+                }
+                console.log(i + " --- \n" + output);
+
+                output += '\n</table>';
+
+                $('#lblMessage').html(output);
+
+            }).error(function (xhr, ajaxOpts, e) {
+
+                console.log('there was an error in ajax - ' + e);
+
+            });
+
+
+        }
+
+        $(function () {
+            loadAjax();
+            setInterval(loadAjax, 4000);
+
+            $('#btnLoadMore').bind('click', function (e) {
+                e.preventDefault();
+                loadAjax();
+            });
+
+            //$(document).ajaxStart(function () {
+            //    $('#loading').show();
+            //}).ajaxComplete(function () {
+            //    $('#loading').hide();
+            //});
+        });
+    </script>
+}
+

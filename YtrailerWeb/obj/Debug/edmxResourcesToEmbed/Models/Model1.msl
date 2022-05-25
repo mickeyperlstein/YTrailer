@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YTrailerWebModelsMyDBContextModelStoreContainer" CdmEntityContainer="MyDBContext">
+    <EntitySetMapping Name="Tasks">
+      <EntityTypeMapping TypeName="IsTypeOf(YTrailerWeb.Models.MyDBContextModel.YTask)">
+        <MappingFragment StoreEntitySet="YTasks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="YouTubeUrl" ColumnName="YouTubeUrl" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="isHandled" ColumnName="isHandled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Titles">
+      <EntityTypeMapping TypeName="IsTypeOf(YTrailerWeb.Models.MyDBContextModel.YTitle)">
+        <MappingFragment StoreEntitySet="YTitles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PromoRequests">
+      <EntityTypeMapping TypeName="IsTypeOf(YTrailerWeb.Models.MyDBContextModel.PromoRequest)">
+        <MappingFragment StoreEntitySet="PromoRequests">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title1" ColumnName="Title1" />
+          <ScalarProperty Name="Title2" ColumnName="Title2" />
+          <ScalarProperty Name="Title3" ColumnName="Title3" />
+          <ScalarProperty Name="Title4" ColumnName="Title4" />
+          <ScalarProperty Name="BgMusicFile" ColumnName="BgMusicFile" />
+          <ScalarProperty Name="Seconds" ColumnName="Seconds" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="YTitleYTask" TypeName="YTrailerWeb.Models.MyDBContextModel.YTitleYTask" StoreEntitySet="YTitles">
+      <EndProperty Name="YTask">
+        <ScalarProperty Name="Id" ColumnName="YTask_Id" />
+      </EndProperty>
+      <EndProperty Name="YTitle">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PromoRequestYTask" TypeName="YTrailerWeb.Models.MyDBContextModel.PromoRequestYTask" StoreEntitySet="PromoRequests">
+      <EndProperty Name="YTask">
+        <ScalarProperty Name="Id" ColumnName="YTask_Id" />
+      </EndProperty>
+      <EndProperty Name="PromoRequest">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

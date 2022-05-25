@@ -1,0 +1,88 @@
+﻿@model FinalWebApp.Models.PromoProject
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PromoProject</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.YouTubeInfosId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YouTubeInfosId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PromoRequestId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PromoRequestId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartingTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartingTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MidTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MidTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MidTitle2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MidTitle2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BgMusicFile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BgMusicFile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.secs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.secs)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

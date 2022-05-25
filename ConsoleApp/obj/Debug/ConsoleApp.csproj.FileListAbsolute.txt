@@ -1,0 +1,7 @@
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\bin\Debug\ConsoleApp.exe
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\bin\Debug\ConsoleApp.pdb
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\obj\Debug\ConsoleApp.csproj.ResolveComReference.cache
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\obj\Debug\ConsoleApp.exe
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\obj\Debug\ConsoleApp.pdb
+U:\Dropbox\Dropbox\dev_projects\YTrailer\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache

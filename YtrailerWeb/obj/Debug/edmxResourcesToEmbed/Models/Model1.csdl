@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YTrailerWeb.Models.MyDBContextModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="YTask">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="YouTubeUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="EndTime" Type="DateTime" Precision="3" />
+    <Property Name="isHandled" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="YTitle" Relationship="YTrailerWeb.Models.MyDBContextModel.YTitleYTask" FromRole="YTask" ToRole="YTitle" />
+    <NavigationProperty Name="PromoRequests" Relationship="YTrailerWeb.Models.MyDBContextModel.PromoRequestYTask" FromRole="YTask" ToRole="PromoRequest" />
+    <Property Name="State" Type="String" />
+  </EntityType>
+  <EntityContainer Name="MyDBContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tasks" EntityType="Self.YTask" />
+    <EntitySet Name="Titles" EntityType="YTrailerWeb.Models.MyDBContextModel.YTitle" />
+    <AssociationSet Name="YTitleYTask" Association="YTrailerWeb.Models.MyDBContextModel.YTitleYTask">
+      <End Role="YTitle" EntitySet="Titles" />
+      <End Role="YTask" EntitySet="Tasks" />
+    </AssociationSet>
+    <EntitySet Name="PromoRequests" EntityType="YTrailerWeb.Models.MyDBContextModel.PromoRequest" />
+    <AssociationSet Name="PromoRequestYTask" Association="YTrailerWeb.Models.MyDBContextModel.PromoRequestYTask">
+      <End Role="PromoRequest" EntitySet="PromoRequests" />
+      <End Role="YTask" EntitySet="Tasks" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="YTitle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="Author" Type="String" Nullable="false" />
+    <NavigationProperty Name="YTask" Relationship="YTrailerWeb.Models.MyDBContextModel.YTitleYTask" FromRole="YTitle" ToRole="YTask" />
+  </EntityType>
+  <Association Name="YTitleYTask">
+    <End Type="YTrailerWeb.Models.MyDBContextModel.YTitle" Role="YTitle" Multiplicity="0..1" />
+    <End Type="YTrailerWeb.Models.MyDBContextModel.YTask" Role="YTask" Multiplicity="1" />
+  </Association>
+  <EntityType Name="PromoRequest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title1" Type="String" Nullable="false" />
+    <Property Name="Title2" Type="String" Nullable="false" />
+    <Property Name="Title3" Type="String" Nullable="false" />
+    <Property Name="Title4" Type="String" Nullable="false" />
+    <Property Name="BgMusicFile" Type="String" Nullable="false" />
+    <Property Name="Seconds" Type="Double" Nullable="false" />
+    <NavigationProperty Name="YTask" Relationship="YTrailerWeb.Models.MyDBContextModel.PromoRequestYTask" FromRole="PromoRequest" ToRole="YTask" />
+  </EntityType>
+  <Association Name="PromoRequestYTask">
+    <End Type="YTrailerWeb.Models.MyDBContextModel.PromoRequest" Role="PromoRequest" Multiplicity="*" />
+    <End Type="YTrailerWeb.Models.MyDBContextModel.YTask" Role="YTask" Multiplicity="1" />
+  </Association>
+  <EnumType Name="YTaskState" a:ExternalTypeName="YTrailerWeb.Models.YTaskState" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+</Schema>

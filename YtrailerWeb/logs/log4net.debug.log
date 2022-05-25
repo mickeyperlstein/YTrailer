@@ -1,0 +1,805 @@
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\e73da614_96bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\Web.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\4e1cdafd_96bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net:ERROR Error while loading XML configuration
+System.Xml.XmlException: Unexpected end tag. Line 24, position 3.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at log4net.Config.XmlConfigurator.InternalConfigure(ILoggerRepository repository, Stream configStream)
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\Web.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: XML configuration does not contain a <log4net> element. Configuration Aborted.
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\4e1cdafd_96bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\Web.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: XML configuration does not contain a <log4net> element. Configuration Aborted.
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\4e1cdafd_96bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\Web.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: XML configuration does not contain a <log4net> element. Configuration Aborted.
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\4e1cdafd_96bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\Web.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: XML configuration does not contain a <log4net> element. Configuration Aborted.
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\bfe8bc22_98bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\Web.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: XML configuration does not contain a <log4net> element. Configuration Aborted.
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\ec79766e_98bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True
+log4net: log4net assembly [log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\a92456df\03c59050_0da2d001\log4net.dll]. (.NET Runtime [4.0.30319.34014] on Microsoft Windows NT 6.2.9200.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\Mickey\AppData\Local\Temp\Temporary ASP.NET Files\root\9288f0db\be9ec333\assembly\dl3\1ed09eb7\83153212_99bad001\YtrailerWeb.dll]
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [YtrailerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Loading configuration for default repository from AppSettings specified Config URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using URI [file:///U:/Dropbox/Dropbox/dev_projects/YTrailer/YtrailerWeb/log4net.config]
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: configuring repository [log4net-default-repository] using file [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [logs\log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%-5p %d{yyyy-MM-dd HH:mm:ss} – %m%n]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [d] Option [yyyy-MM-dd HH:mm:ss] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ – ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [U:\Dropbox\Dropbox\dev_projects\YTrailer\YtrailerWeb\logs\log.txt] append [True]
+log4net: Created Appender [RollingLogFileAppender]
+log4net: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|YTrailerWeb.Models.MyDBContext.mdf;Initial Catalog=YTrailerWeb.Models.MyDBContext;Integrated Security=True;MultipleActiveResultSets=True

@@ -1,0 +1,79 @@
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\bin\Debug\APT.exe.config
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\Interop.VisioForge_Video_Edit.dll
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\AxInterop.VisioForge_Video_Edit.dll
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\APT.vbproj.ResolveComReference.cache
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\bin\Debug\APT.exe
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\bin\Debug\APT.pdb
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\bin\Debug\APT.xml
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\bin\Debug\Interop.VisioForge_Video_Edit.dll
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\bin\Debug\AxInterop.VisioForge_Video_Edit.dll
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\WindowsApplication1.frmMain.resources
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\APT.vbproj.GenerateResource.Cache
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\APT.exe
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\APT.xml
+C:\Users\shmuel.fortman\Documents\Visual Studio 2013\Projects\APT\APT\obj\Debug\APT.pdb
+C:\dev\apt\APT\bin\Debug\APT.exe
+C:\dev\apt\APT\bin\Debug\Interop.VisioForge_Video_Edit.dll
+C:\dev\apt\APT\bin\Debug\AxInterop.VisioForge_Video_Edit.dll
+C:\dev\apt\APT\bin\Debug\APT.exe.config
+C:\dev\apt\APT\obj\Debug\Interop.VisioForge_Video_Edit.dll
+C:\dev\apt\APT\obj\Debug\AxInterop.VisioForge_Video_Edit.dll
+C:\dev\apt\APT\obj\Debug\APT.vbproj.ResolveComReference.cache
+C:\dev\apt\APT\obj\Debug\WindowsApplication1.frmMain.resources
+C:\dev\apt\APT\obj\Debug\WindowsApplication1.Resources.resources
+C:\dev\apt\APT\obj\Debug\APT.vbproj.GenerateResource.Cache
+C:\dev\apt\APT\obj\Debug\APT.exe
+C:\dev\apt\APT\obj\Debug\APT.xml
+C:\dev\apt\APT\obj\Debug\APT.pdb
+C:\dev\apt\APT\bin\Debug\APT.pdb
+C:\dev\apt\APT\bin\Debug\APT.xml
+C:\dev\apt\APT\obj\Debug\APT.vbprojResolveAssemblyReference.cache
+C:\dev\apt\APT\bin\Debug\VisioForge.Controls.dll
+C:\dev\apt\APT\bin\Debug\VisioForge.Controls.WinForms.dll
+C:\dev\apt\APT\bin\Debug\VisioForge.Controls.WPF.dll
+C:\dev\apt\APT\bin\Debug\VisioForge.MediaFramework.dll
+C:\dev\apt\APT\bin\Debug\VisioForge.Shared.dll
+C:\dev\apt\APT\bin\Debug\VisioForge.Types.dll
+C:\dev\apt\APT\obj\Debug\Interop.BytescoutSWFToVideo.dll
+C:\dev\apt\APT\obj\Debug\Interop.SWFScout.dll
+C:\dev\apt\APT\obj\Debug\WindowsApplication1.TimeLine.resources
+C:\dev\apt\APT\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\dev\apt\APT\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\dev\apt\APT\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\dev\apt\APT\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\APT.exe.config
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\Interop.ShockwaveFlashObjects.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\APT.vbproj.ResolveComReference.cache
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\APT.exe
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\APT.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\APT.pdb
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\APT.vbprojResolveAssemblyReference.cache
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\WindowsApplication1.frmMain.resources
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\WindowsApplication1.Resources.resources
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\WindowsApplication1.TimeLine.resources
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\APT.vbproj.GenerateResource.Cache
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\Interop.VisioForge_Video_Edit.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\APT.exe
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\APT.pdb
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\APT.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AxInterop.VisioForge_Video_Edit.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\Interop.ShockwaveFlashObjects.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\obj\Debug\Interop.BytescoutSWFToVideo.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Imaging.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Math.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.DirectShow.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Vision.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Imaging.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Math.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.DirectShow.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Vision.xml
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.VFW.dll
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.VFW.pdb
+U:\Dropbox\Dropbox\dev_projects\YTrailer\apt2\APT\bin\Debug\AForge.Video.VFW.xml

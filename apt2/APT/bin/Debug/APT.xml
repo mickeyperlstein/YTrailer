@@ -1,0 +1,154 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APT
+</name>
+</assembly>
+<members>
+<member name="P:WindowsApplication1.FileDownloader.DownloadStatus">
+	<summary>
+ Gets the current DownloadStatus
+ </summary>
+</member><member name="P:WindowsApplication1.FileDownloader.DownloadData">
+	<summary>
+ Gets the current DownloadData
+ </summary>
+</member><member name="P:WindowsApplication1.FileDownloader.DownloadSpeed">
+	<summary>
+ Gets the current DownloadSpeed
+ </summary>
+</member><member name="P:WindowsApplication1.FileDownloader.ETA">
+	<summary>
+ Gets the estimate time to finish downloading, the time is in seconds
+ </summary>
+</member><member name="P:WindowsApplication1.FileDownloader.Proxy">
+	<summary>
+ Proxy to be used for http and ftp requests.
+ </summary>
+</member><member name="M:WindowsApplication1.FileDownloader.Pause">
+	<summary>
+ Make the download to Pause
+ </summary>
+</member><member name="M:WindowsApplication1.FileDownloader.Resume">
+	<summary>
+ Make the download to resume
+ </summary>
+</member><member name="M:WindowsApplication1.FileDownloader.download(System.Object,System.ComponentModel.DoWorkEventArgs)">
+	<summary>
+ Begin downloading the file at the specified url, and save it to the given folder.
+ </summary>
+</member><member name="M:WindowsApplication1.DownloadData.ValidateResponse(System.Net.WebResponse,System.String)">
+	<summary>
+ Checks whether a WebResponse is an error.
+ </summary>
+	<param name="response"></param>
+</member><member name="T:WindowsApplication1.DownloadData">
+	<summary>
+ Constains the connection to the file server and other statistics about a file
+ that's downloading.
+ </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Youtube_length">
+	<summary>
+  Looks up a localized string similar to "length_seconds":"(.+?)",.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.ytrailer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.VideoTitle">
+	<summary>
+ Gets or Sets the file name
+ </summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.Extention">
+	<summary>
+ Gets or Sets the file extention
+ </summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.DownloadUrl">
+	<summary>
+ Gets or Sets the file url
+ </summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.VideoUrl">
+	<summary>
+ Gets or Sets the youtube video url
+ </summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.VideoSize">
+	<summary>
+ Gets or Sets the youtube video size
+ </summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.Dimension">
+	<summary>
+ Gets or Sets the youtube video dimension
+ </summary>
+</member><member name="P:WindowsApplication1.YouTubeVideoQuality.Length">
+	<summary>
+ Gets the youtube video length
+ </summary>
+</member><member name="T:WindowsApplication1.YouTubeVideoQuality">
+	<summary>
+ Contains information about the video url extension and dimension
+ </summary>
+</member><member name="M:WindowsApplication1.YouTubeDownloader.IsWideScreen(System.String)">
+	<summary>
+ check whether the video is in widescreen format
+ </summary>
+</member><member name="T:WindowsApplication1.YouTubeDownloader">
+	<summary>
+ Use this class to get youtube video urls
+ </summary>
+</member><member name="T:WindowsApplication1.Win32">
+	<summary>
+ Windows API functions and structures
+ </summary>
+</member><member name="M:WindowsApplication1.Helper.GetTxtBtwn(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Gets the txt that lies between these two strings
+ </summary>
+</member><member name="M:WindowsApplication1.Helper.GetLastTxtBtwn(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Gets the txt that lies between these two strings
+ </summary>
+</member><member name="M:WindowsApplication1.Helper.GetTxtBtwn(System.String,System.String,System.String,System.Int32,System.Boolean)">
+	<summary>
+ Gets the txt that lies between these two strings
+ </summary>
+</member><member name="M:WindowsApplication1.Helper.Split(System.String,System.String)">
+	<summary>
+ Split the input text for this pattren
+ </summary>
+</member><member name="M:WindowsApplication1.Helper.DownloadWebPage(System.String)">
+	<summary>
+ Returns the content of a given web adress as string.
+ </summary>
+	<param name="Url">URL of the webpage</param>
+	<returns>Website content</returns>
+</member><member name="M:WindowsApplication1.Helper.GetVideoIDFromUrl(System.String)">
+	<summary>
+ Get the ID of a youtube video from its URL
+ </summary>
+	<param name="url"></param>
+	<returns></returns>
+</member><member name="T:WindowsApplication1.AVIReader">
+	<summary>
+ Reading AVI files using Video for Windows
+ </summary>
+</member><member name="M:WindowsApplication1.AbortableBackgroundWorker.Abort">
+	<summary>
+ Kill the background thread
+ </summary>
+</member>
+</members>
+</doc>
